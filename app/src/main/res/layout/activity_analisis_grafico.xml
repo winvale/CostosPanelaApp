@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnalisisGeneral">
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:ignore="MissingConstraints">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:baselineAligned="true">
+
+                <Button
+
+                    android:id="@+id/btn1"
+                    style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/blue2"
+                    android:onClick="agen"
+                    android:text="@string/bt1"
+                    app:icon="@drawable/ic_general" />
+
+                <Button
+
+                    android:id="@+id/btn2"
+                    style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/blue2"
+                    android:onClick="agra"
+                    android:text="@string/bt2"
+                    app:icon="@drawable/ic_chart" />
+
+                <Button
+
+                    android:id="@+id/btn3"
+                    style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/blue2"
+                    android:onClick="aesp"
+                    android:text="@string/bt3"
+                    app:icon="@drawable/ic_especifico" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="619dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/Tit1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="top"
+                    android:autoSizeTextType="uniform"
+                    android:text="@string/bt2"
+                    android:textAlignment="center"
+                    android:textColor="@color/green1"
+                    android:textSize="34sp"
+                    android:textStyle="bold"
+                    tools:ignore="RtlCompat,SmallSp"
+                    tools:targetApi="o" />
+                <TextView
+                    android:id="@+id/TitGraph1"
+                    android:layout_width="match_parent"
+                    android:layout_height="22dp"
+                    android:layout_gravity="top"
+                    android:autoSizeTextType="uniform"
+                    android:text="@string/TitGraph1"
+                    android:textAlignment="center"
+                    android:textColor="@color/CRIMSON"
+                    android:textSize="34sp"
+                    android:textStyle="bold"
+                    tools:ignore="RtlCompat,SmallSp"
+                    tools:targetApi="o" />
+            </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="619dp">
+
+
+                    <com.github.mikephil.charting.charts.BarChart
+                        android:id="@+id/barChart"
+                        android:layout_width="match_parent"
+                        android:layout_height="521dp"
+                        android:layout_gravity="bottom"
+                        android:layout_margin="12dp">
+
+                    </com.github.mikephil.charting.charts.BarChart>
+
+                </FrameLayout>
+
+
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                tools:ignore="ExtraText">
+
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/pastel2"
+                    android:layout_width="match_parent"
+                    android:layout_height="490dp"
+                    android:layout_gravity="bottom"
+                    android:layout_margin="12dp"/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10sp"
+                    tools:ignore="SmallSp" />
+                <TextView
+                    android:id="@+id/TitGraph2"
+                    android:layout_width="match_parent"
+                    android:layout_height="22dp"
+                    android:layout_gravity="top"
+                    android:autoSizeTextType="uniform"
+                    android:text="@string/TitGraph2"
+                    android:textAlignment="center"
+                    android:textColor="@color/CRIMSON"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    tools:ignore="RtlCompat,SmallSp"
+                    tools:targetApi="o" />
+
+
+                <com.github.mikephil.charting.charts.BarChart
+                    android:id="@+id/barChart2"
+                    android:layout_width="match_parent"
+                    android:layout_height="490dp"
+                    android:layout_gravity="bottom"
+                    android:layout_margin="12dp">
+                </com.github.mikephil.charting.charts.BarChart>
+
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10sp"
+                    tools:ignore="SmallSp" />
+                <TextView
+                    android:id="@+id/TitGraph4"
+                    android:layout_width="match_parent"
+                    android:layout_height="22dp"
+                    android:layout_gravity="top"
+                    android:autoSizeTextType="uniform"
+                    android:text="@string/TitGraph4"
+                    android:textAlignment="center"
+                    android:textColor="@color/CRIMSON"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    tools:ignore="RtlCompat,SmallSp"
+                    tools:targetApi="o" />
+
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/pastel"
+                    android:layout_width="match_parent"
+                    android:layout_height="490dp"
+                    android:layout_gravity="bottom"
+                    android:layout_margin="12dp"/>
+
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10sp"
+                    tools:ignore="SmallSp" />
+                <TextView
+                    android:id="@+id/TitGraph5"
+                    android:layout_width="match_parent"
+                    android:layout_height="22dp"
+                    android:layout_gravity="top"
+                    android:autoSizeTextType="uniform"
+                    android:text="@string/TitGraph5"
+                    android:textAlignment="center"
+                    android:textColor="@color/CRIMSON"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    tools:ignore="RtlCompat,SmallSp"
+                    tools:targetApi="o" />
+
+
+                <com.mindfusion.charting.AxesChart
+                    android:id="@+id/combi_chart"
+                    android:layout_width="match_parent"
+                    android:layout_height="490dp"/>                    >
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnVol"
+                    style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+                    android:layout_width="120dp"
+                    android:layout_height="60dp"
+                    android:layout_marginHorizontal="150dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/BLUE1"
+                    android:onClick="volver"
+                    android:text="@string/volver" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

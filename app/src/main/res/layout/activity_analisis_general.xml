@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="3dp"
+    tools:context=".AnalisisGeneral">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:baselineAligned="true">
+
+                <Button
+
+                    android:id="@+id/btn1"
+                    style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/blue2"
+                    android:onClick="agen"
+                    android:text="@string/bt1"
+                    app:icon="@drawable/ic_general" />
+
+                <Button
+
+                    android:id="@+id/btn2"
+                    style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/blue2"
+                    android:onClick="agra"
+                    android:text="@string/bt2"
+                    app:icon="@drawable/ic_chart" />
+
+                <Button
+
+                    android:id="@+id/btn3"
+                    style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/blue2"
+                    android:onClick="aesp"
+                    android:text="@string/bt3"
+                    app:icon="@drawable/ic_especifico" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1200dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Tit1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="top"
+                    android:autoSizeTextType="uniform"
+                    android:text="@string/bt1"
+                    android:textAlignment="center"
+                    android:textColor="@color/green1"
+                    android:textSize="34sp"
+                    android:textStyle="bold"
+                    tools:ignore="RtlCompat,SmallSp"
+                    tools:targetApi="o" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:id="@+id/TextSubTit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp"
+                    android:layout_gravity="top"
+                    android:autoSizeTextType="uniform"
+                    android:text="@string/textinicialgen"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/green4"
+                    android:textSize="34sp"
+                    tools:ignore="RtlCompat,SmallSp"
+                    tools:targetApi="o" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:id="@+id/TextBase"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_gravity="top"
+                    android:autoSizeTextType="uniform"
+                    android:text="@string/textinicialgen"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/black"
+                    android:textSize="34sp"
+                    tools:ignore="RtlCompat,SmallSp"
+                    tools:targetApi="o" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:id="@+id/TextTotTrab"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="top"
+                    android:autoSizeTextType="uniform"
+                    android:text="@string/bt1"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="36sp"
+                    tools:ignore="RtlCompat,SmallSp"
+                    tools:targetApi="o" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:id="@+id/TextCostoTotal"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="top"
+                    android:autoSizeTextType="uniform"
+                    android:text="@string/bt1"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="36sp"
+                    tools:ignore="RtlCompat,SmallSp"
+                    tools:targetApi="o" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <ImageView
+                    android:id="@+id/imageV"
+                    android:layout_width="206dp"
+                    android:layout_height="130dp"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="50dp"
+                    android:contentDescription="@string/txt_void" />
+
+
+
+                    <TextView
+                        android:id="@+id/TextSalida"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:text="@string/txt_void"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/black"
+                        android:textSize="26dp"
+                        tools:ignore="RtlCompat,SmallSp"
+                        tools:targetApi="o" />
+
+
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/r1"
+                        style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/green3"
+                        android:onClick="masCostoso"
+                        android:text="@string/compCost" />
+
+                    <Button
+                        android:id="@+id/r2"
+                        style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="5dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/green3"
+                        android:onClick="CompDepartamental"
+                        android:text="@string/Rentabilidad" />
+
+
+                </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <Button
+                    android:id="@+id/btnVol"
+                    style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="125dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/blue3"
+                    android:onClick="volver"
+                    android:text="@string/volver" />
+            </LinearLayout>
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

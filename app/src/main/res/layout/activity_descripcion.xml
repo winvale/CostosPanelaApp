@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Descripcion">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:background="#eceff1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:autoSizeTextType="uniform"
+                android:text="@string/modelo_de_costos"
+                android:textAlignment="center"
+                android:textColor="@color/brown3"
+                tools:targetApi="o"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/intro"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:autoSizeTextType="uniform"
+                android:text="@string/intros"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                tools:ignore="RtlCompat,SmallSp"
+                tools:targetApi="o" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="@color/green1"/>
+            <TextView
+                android:id="@+id/MOTitulo"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="top"
+                android:autoSizeTextType="uniform"
+                android:text="@string/MOTit"
+                android:textAlignment="textStart"
+                android:textColor="@color/CRIMSON"
+                android:textSize="1020sp"
+                tools:ignore="RtlCompat,SmallSp"
+                tools:targetApi="o" />
+            <TextView
+                android:id="@+id/txtManoObra"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="top"
+                android:autoSizeTextType="uniform"
+                android:text="@string/txt_ManoObr"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="1020sp"
+                tools:ignore="RtlCompat,SmallSp"
+                tools:targetApi="o" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="@color/green1"/>
+            <TextView
+                android:id="@+id/Ntrabaj"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="top"
+                android:autoSizeTextType="uniform"
+                android:text="@string/NTrab"
+                android:textAlignment="textStart"
+                android:textColor="@color/CRIMSON"
+                android:textSize="1020sp"
+                tools:ignore="RtlCompat,SmallSp"
+                tools:targetApi="o" />
+            <TextView
+                android:id="@+id/txtJornales"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="top"
+                android:autoSizeTextType="uniform"
+                android:text="@string/jornal"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="1020sp"
+                tools:ignore="RtlCompat,SmallSp"
+                tools:targetApi="o" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="@color/green1"/>
+            <TextView
+                android:id="@+id/Insum"
+                android:layout_width="350dp"
+                android:layout_height="25dp"
+                android:layout_gravity="top"
+                android:autoSizeTextType="uniform"
+                android:text="@string/Ins"
+                android:textAlignment="textStart"
+                android:textColor="@color/CRIMSON"
+                android:textSize="1020sp"
+                tools:ignore="RtlCompat,SmallSp"
+                tools:targetApi="o" />
+            <TextView
+                android:id="@+id/txtInsum"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_gravity="top"
+                android:autoSizeTextType="uniform"
+                android:text="@string/TxInsu"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="1020sp"
+                tools:ignore="RtlCompat,SmallSp"
+                tools:targetApi="o" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="@color/green1"/>
+            <TextView
+                android:id="@+id/Transp"
+                android:layout_width="350dp"
+                android:layout_height="25dp"
+                android:layout_gravity="top"
+                android:autoSizeTextType="uniform"
+                android:text="@string/tTransp"
+                android:textAlignment="textStart"
+                android:textColor="@color/CRIMSON"
+                android:textSize="1020sp"
+                tools:ignore="RtlCompat,SmallSp"
+                tools:targetApi="o" />
+            <TextView
+                android:id="@+id/txtTransporte"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="top"
+                android:autoSizeTextType="uniform"
+                android:text="@string/txt_Tran"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="1020sp"
+                tools:ignore="RtlCompat,SmallSp"
+                tools:targetApi="o" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="@color/green1"/>
+            <TextView
+                android:id="@+id/OtrGast"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="top"
+                android:autoSizeTextType="uniform"
+                android:text="@string/tOG"
+                android:textAlignment="textStart"
+                android:textColor="@color/CRIMSON"
+                android:textSize="1020sp"
+                tools:ignore="RtlCompat,SmallSp"
+                tools:targetApi="o" />
+            <TextView
+                android:id="@+id/txtOG"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_gravity="top"
+                android:autoSizeTextType="uniform"
+                android:text="@string/txtOTRGT"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="1020sp"
+                tools:ignore="RtlCompat,SmallSp"
+                tools:targetApi="o" />
+
+            <TextView
+            android:id="@+id/txt_click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:linksClickable="true"
+            android:longClickable="true"
+            android:text="@string/MiraVideo"
+            android:textColor="@android:color/holo_blue_light"
+            android:textStyle="bold" />
+
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:layout_weight="1">
+
+                    <Button
+
+                        android:id="@+id/btnReg"
+                        style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/teal_200"
+
+                        android:text="@string/regresar" />
+
+                </TableRow>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

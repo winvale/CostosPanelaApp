@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="413dp"
+        android:layout_height="806dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text_click2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:linksClickable="false"
+                android:longClickable="false"
+                android:onClick="btnmenu"
+                android:textColor="@android:color/holo_blue_light"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+
+            <TextView
+                android:id="@+id/text_click"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+
+                android:linksClickable="true"
+                android:longClickable="true"
+                android:text="Acerca del modelo"
+                android:textColor="@android:color/holo_blue_light"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:baselineAligned="false">
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_Cultivo"
+                android:textColorHighlight="@color/design_default_color_primary"
+                android:textColorLink="@color/white"
+                android:textCursorDrawable="@color/white"
+                android:verticalScrollbarPosition="defaultPosition" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_Proceso" />
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_Comercialización" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_Valores" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_ManoObra" />
+
+            <EditText
+                android:id="@+id/mano_obra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="@string/bt1"
+                android:hint="@string/txt_void"
+                android:ems="10"
+                android:inputType="number" />
+            <TextView
+                android:id="@+id/textViewX"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/NTrab" />
+
+            <EditText
+                android:id="@+id/num_trabaj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:autofillHints="@string/txt_void"
+                android:hint="@string/txt_void"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_Insumos" />
+
+            <EditText
+                android:id="@+id/insumos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:autofillHints="@string/txt_void"
+                android:hint="@string/txt_void"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_Transporte" />
+
+            <EditText
+                android:id="@+id/transporte"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:autofillHints="@string/txt_void"
+                android:hint="@string/txt_void"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_OtrsGastos" />
+
+            <EditText
+                android:id="@+id/otros_gastos"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:ems="10"
+                android:autofillHints="@string/txt_void"
+                android:hint="@string/txt_void"
+                android:inputType="number" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="345dp"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <Button
+                android:id="@+id/btnForm"
+                android:layout_width="297dp"
+                android:layout_height="wrap_content"
+                android:onClick="btnmenu"
+                android:layout_marginLeft="35dp"
+                android:text="@string/Btn_Guardar"
+                android:textColor="@color/black"
+                android:textColorHint="@color/teal_200"
+                app:backgroundTint="@color/white" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="18dp" />
+
+
+
+            <Button
+                android:id="@+id/btnHis"
+                android:layout_width="297dp"
+                android:layout_marginLeft="35dp"
+                android:layout_height="wrap_content"
+                android:text="@string/Historial"
+                android:textColor="@color/black"
+                android:textColorHint="@color/teal_200"
+                app:backgroundTint="@color/white" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="18dp" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

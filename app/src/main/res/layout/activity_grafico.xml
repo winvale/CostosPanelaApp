@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Grafico">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"    >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:baselineAligned="true">
+
+                <Button
+
+                    android:id="@+id/btn1"
+                    style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/blue2"
+                    android:onClick="agen"
+                    android:text="@string/bt1"
+                    app:icon="@drawable/ic_general" />
+
+                <Button
+
+                    android:id="@+id/btn2"
+                    style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/blue2"
+                    android:onClick="agra"
+                    android:text="@string/bt2"
+                    app:icon="@drawable/ic_chart" />
+
+                <Button
+
+                    android:id="@+id/btn3"
+                    style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/blue2"
+                    android:onClick="aesp"
+                    android:text="@string/bt3"
+                    app:icon="@drawable/ic_especifico" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="619dp">
+
+                <com.github.mikephil.charting.charts.BarChart
+                    android:id="@+id/barChart"
+                    android:layout_width="match_parent"
+                    android:layout_height="569dp"
+                    android:layout_gravity="bottom"
+                    android:layout_margin="20dp"
+                    android:layout_weight="1">
+
+
+                </com.github.mikephil.charting.charts.BarChart>
+
+
+            </FrameLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnVol"
+                    style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+                    android:layout_width="120dp"
+                    android:layout_height="60dp"
+                    android:layout_marginHorizontal="150dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/BLUE1"
+                    android:onClick="volver"
+                    android:text="@string/volver" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+            </ScrollView>
+
+    </FrameLayout>
+
+
+
+
+
+
+
+</LinearLayout>

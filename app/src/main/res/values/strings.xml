@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Tesis</string>
+
+    <string name="bt1">General</string>
+    <string name="bt2">Gráfico</string>
+    <string name="bt3">Específico</string>
+
+    <string name="txt_principal">Este proyecto esta elabardo por:</string>
+    <string name="txt_participantes"> Edwin Valencia y Keneth Portilla</string>
+    <string name="txt_inico"> INICIO</string>
+    <string name="txt_Cultivo"> Cultivo</string>
+    <string name="txt_Proceso"> Proceso</string>
+    <string name="txt_Comercialización"> Comercialización</string>
+    <string name="txt_Valores"> Valores</string>
+
+    <string name="txt_ManoObra">Pago por persona</string>
+    <string name="txt_Insumos"> Insumos</string>
+    <string name="txt_Transporte"> Transporte</string>
+    <string name="txt_OtrsGastos"> Otros Gastos</string>
+
+
+    <string name="Click_GenerarModelo"> Generar Modelo</string>
+    <string name="Btn_Guardar"> Guardar</string>
+
+
+    <string name="title_activity_menu">MainActivity</string>
+    <string name="title_home">Análisis de Resultados</string>
+    <string name="title_dashboard">Gráficos</string>
+    <string name="title_notifications">Análisis Especifico</string>
+    <string name="tipo">a</string>
+    <string name="regresar">Regresar</string>
+    <string name="ImageFoot">Imagen</string>
+    <string name="modelo_de_costos">MODELO DE COSTOS</string>
+    <string name="intros">Aquí se describe el funcionamiento de las variables incluídas para el cálculo de los costos asociados a la producción por hectarea</string>
+    <string name="MOTit">Pago por persona:</string>
+    <string name="txt_ManoObr">La mano de obra hace referencia al valor promedio estimado de
+        la fuerza de producción proveniente del trabajo humano por persona.</string>
+    <string name="NTrab">Jornales:</string>
+    <string name="jornal">Hace referencia al número de trabajadores adscritos al proceso productivo.</string>
+    <string name="Ins">Insumos:</string>
+    <string name="TxInsu">Se tiene el cuenta el valor totalizado de todo el capital fisico de la entidad (maquinaria, planta y equipo); además de el capital variable asociado a la materia prima necesaria para el proceso productivo.</string>
+    <string name="tTransp">Transporte:</string>
+    <string name="txt_Tran">Se recupera todos los costos asociados al desplazamiento ya sea de insumos o de producto final.</string>
+    <string name="tOG">Otros gastos:</string>
+    <string name="txtOTRGT">Toma todos aquellos gastos que estando asociados al sistema productivo; no se encasillan en los anteriores supuestos y se contabilizan por separado.</string>
+    <string name="volver">Volver</string>
+    <string name="textinicialgen">A continuación se describe los resultados generados por el cálculo de costos y sus implicaciones generales</string>
+    <string name="txt_void"> </string>
+    <string name="compCost">Rama mas costosa</string>
+    <string name="Rentabilidad">Comparativa departamental</string>
+    <string name="TitGraph1">Comparación costos totales</string>
+    <string name="TitGraph2">Comparación precios al productor por kilogramo</string>
+    <string name="TitGraph3">"Variación porcentual "</string>
+    <string name="Historial">Historial</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="TitGraph4">Participación en los costos por rama</string>
+    <string name="textsubesp">Bajo los datos suministrados, se presentan los siguientes resultados:</string>
+    <string name="TitDif">Diferencia de costos:</string>
+    <string name="AnPrecio">Precios estimados:</string>
+    <string name="compPrecio">Comparación con precios nacionales</string>
+    <string name="TitGraph5">Evolución de los costos</string>
+    <string name="MiraVideo">Mira nuestro videotutorial aquí</string>
+
+</resources>
